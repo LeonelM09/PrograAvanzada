@@ -96,7 +96,7 @@ while True:
     opcion = input("Selecciona una opción (1-6):")
 
     if opcion == "1":
-        print("\n--- SELECCIÓN DE CLIENTE ---")
+        print("SELECCIÓN DE CLIENTE")
         for i, c in enumerate(lista_clientes):
             print(f"{i + 1}. {c.nombre} (Puntos: {c.pF})")
         
