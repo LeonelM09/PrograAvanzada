@@ -90,7 +90,7 @@ while True:
     print("2.Panel de Empleados (Gestionar Pedidos)")
     print("3.Consultar Inventario Central")
     print("4.Consultar Objetos")
-    print("5.Consultar Instancias ")
+    print("5.Cambiar datos")
     print("6.Salir")
     
     opcion = input("Selecciona una opción (1-6):")
