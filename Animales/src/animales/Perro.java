@@ -1,0 +1,23 @@
+package animales;
+
+public class Perro {
+    String Nombre;
+    String Color;
+    int patas;
+    
+    public Perro(String name, String color, int legs){
+        this.Nombre=name;
+        this.Color=color;
+        this.patas=legs;
+    }
+    public void Sonidoperro(){
+            System.out.println("El perro hace guau guau");
+    }
+    
+    public void Descripcionperro(){
+        System.out.println("El perro se llama: "+Nombre+ " es color "+Color+" y tiene "+patas+" patas");
+        
+    }
+
+}
+
